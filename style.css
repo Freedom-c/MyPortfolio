@@ -11,6 +11,39 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+
+    /* Media query tanımlama */
+    @media only screen and (max-width: 600px) {
+        /* 600 pikselden küçük ekranlar için stil değişiklikleri */
+        body {
+          background-color: lightblue;
+        }
+  
+        h1 {
+          font-size: 24px;
+        }
+  
+        p {
+          font-size: 14px;
+        }
+      }
+  
+      @media only screen and (min-width: 601px) and (max-width: 900px) {
+        /* 601-900 piksel arası ekranlar için stil değişiklikleri */
+        body {
+          background-color: lightgreen;
+        }
+  
+        h1 {
+          font-size: 36px;
+        }
+  
+        p {
+          font-size: 18px;
+        }
+      }
+  
 header{
     position: fixed;
     top: 0;
