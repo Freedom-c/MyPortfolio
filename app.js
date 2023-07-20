@@ -5,3 +5,7 @@ var typed= new Typed('#text',{
     backDelay:1000,
     loop:true
 });
+
+document.getElementById("aboutMeBtn").addEventListener("click", function() {
+    window.location.href = "mailto:mervecivan25@gmail.com";
+});

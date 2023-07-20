@@ -150,16 +150,19 @@ header{
     font-weight: 300;
 }
 
-.btn-box{
+#aboutMeBtn{
     display: inline-block;
+    color:rgb(255, 173, 229);
+    border: 2px solid #ff77ff;
     padding: 12px 20px;
     border-radius: 40px;
     font-size: 16px;
     background: #f16ec1
     
 }
-.btn-box:hover{
-    box-shadow: 0 0 5px #fb45e0,
+#aboutMeBtn:hover{
+    box-shadow:
+    0 0 5px #fb45e0,
     0 0 25px #fb45e0, 0 0 50px #fb45e0,
     0 0 100px #fb45e0, 0 0 20px #fb45e0
 }
